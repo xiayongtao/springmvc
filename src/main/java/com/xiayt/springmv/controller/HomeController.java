@@ -12,6 +12,6 @@ public class HomeController {
      public String index(Model model){
 
         model.addAttribute("message","Hello SpringMVC");
-        return "index";
+        return "home/index";
      }
 }
