@@ -19,6 +19,7 @@ public class EmpController extends BaseController {
         return userServer.queryUsers();
     }
 
+
     @RequestMapping(path = "/{id}", method = RequestMethod.GET)
     public User getEmp(@PathVariable int id){
         return userServer.queryUser(id);
